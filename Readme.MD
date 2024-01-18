@@ -34,8 +34,4 @@ To run the app locally, ensure you have the required dependencies installed. You
 pip install -r requirements.txt
 
 
-Run the app with:
-
-bash
-
 streamlit run main.py
