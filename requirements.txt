@@ -5,3 +5,4 @@ prophet
 yfinance
 plotly
 scikit-learn
+numpy==1.24.2
