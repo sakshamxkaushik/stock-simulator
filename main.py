@@ -13,7 +13,7 @@ from services import load_data, plot_data, plot_multiple_data, plot_volume
 st.set_page_config(layout="wide", page_title="Project 1", page_icon="📈")
 
 # Sidebar
-st.sidebar.markdown("<h1 style='text-align: center; font-size: 30px;'><b>CS 757 Project-</b><b style='color: orange'>1</b></h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; font-size: 30px;'><b>CS 705 Project-</b><b style='color: orange'>1</b></h1>", unsafe_allow_html=True)
 st.sidebar.title("Options")
 start_date_key = str(uuid.uuid4())
 start_date = st.sidebar.date_input("Start date", date(2018, 1, 1), key=start_date_key)
@@ -21,9 +21,9 @@ end_date = st.sidebar.date_input("End date", date.today())
 
 # Header
 st.markdown("<h1 style='text-align: center;'>Stock Simulator App 📈</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'><b>Project by Saksham and Shreya</b></p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'><b>Roll No. CO20346 & CO20352</b></p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>This is the Final Year Project 1 for stock price prediction using the open source <a href='https://facebook.github.io/prophet/'>Prophet library by Google</a> library.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'><b>Project by Saksham</b></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'><b>Roll No. CO20346</b></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>This is the Final Year Report for stock price prediction using the open source <a href='https://facebook.github.io/prophet/'>Prophet library by Google</a> library.</p>", unsafe_allow_html=True)
 
 selected_tab = option_menu(
     menu_title=None,
